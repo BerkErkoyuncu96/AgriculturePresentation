@@ -1,0 +1,51 @@
+﻿@using EntityLayer.Concrete
+@model List<Announcement>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+
+<div class="col-lg-12 grid-margin stretch-card">
+    <div class="card">
+        <div class="card-body">
+            <h4 class="card-title">Duyuru Listesi</h4>
+            <div class="table-responsive pt-3">
+                <table class="table table-bordered">
+                    <thead>
+                        <tr>
+                            <td>#</td>
+                            <td>Başlık</td>
+                            <td>Tarih</td>
+                            <td>Sil</td>
+                            <td>Düzenle</td>
+                            <td>Durum</td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model)
+                        {
+                            <tr>
+                                <td>@item.AnnouncementId</td>
+                                <td>@item.Title</td>
+                                <td>@item.Date</td>
+                                <td> <a href="/Announcement/deleteAnnouncement/@item.AnnouncementId" class="btn btn-outline-primary">Sil</a></td>
+                                <td> <a href="/Announcement/updateAnnouncement/@item.AnnouncementId" class="btn btn-outline-primary">Düzenle</a></td>
+                                @if (item.Status == true)
+                                {
+                                    <td> <a href="/Announcement/ChangeStatusToFalse/@item.AnnouncementId" class="btn btn-inverse-primary">Pasif Yap</a></td>
+                                }
+                                else
+                                {
+                                    <td> <a href="/Announcement/ChangeStatusToTrue/@item.AnnouncementId" class="btn btn-inverse-primary ">Aktif Yap</a></td>
+                                }
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+                <a href="/Announcement/addAnnouncement/" class="btn btn-outline-info">Yeni Duyuru Girişi</a>
+            </div>
+        </div>
+    </div>
+</div>
+

@@ -1,0 +1,17 @@
+C:\Users\CAS\OneDrive\Masaüstü\Agriculture Presentation\BuisnessLayer\bin\Debug\net7.0\BuisnessLayer.deps.json
+C:\Users\CAS\OneDrive\Masaüstü\Agriculture Presentation\BuisnessLayer\bin\Debug\net7.0\BuisnessLayer.dll
+C:\Users\CAS\OneDrive\Masaüstü\Agriculture Presentation\BuisnessLayer\bin\Debug\net7.0\BuisnessLayer.pdb
+C:\Users\CAS\OneDrive\Masaüstü\Agriculture Presentation\BuisnessLayer\bin\Debug\net7.0\DataAccessLayer.dll
+C:\Users\CAS\OneDrive\Masaüstü\Agriculture Presentation\BuisnessLayer\bin\Debug\net7.0\EntityLayer.dll
+C:\Users\CAS\OneDrive\Masaüstü\Agriculture Presentation\BuisnessLayer\bin\Debug\net7.0\DataAccessLayer.pdb
+C:\Users\CAS\OneDrive\Masaüstü\Agriculture Presentation\BuisnessLayer\bin\Debug\net7.0\EntityLayer.pdb
+C:\Users\CAS\OneDrive\Masaüstü\Agriculture Presentation\BuisnessLayer\obj\Debug\net7.0\BuisnessLayer.csproj.AssemblyReference.cache
+C:\Users\CAS\OneDrive\Masaüstü\Agriculture Presentation\BuisnessLayer\obj\Debug\net7.0\BuisnessLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CAS\OneDrive\Masaüstü\Agriculture Presentation\BuisnessLayer\obj\Debug\net7.0\BuisnessLayer.AssemblyInfoInputs.cache
+C:\Users\CAS\OneDrive\Masaüstü\Agriculture Presentation\BuisnessLayer\obj\Debug\net7.0\BuisnessLayer.AssemblyInfo.cs
+C:\Users\CAS\OneDrive\Masaüstü\Agriculture Presentation\BuisnessLayer\obj\Debug\net7.0\BuisnessLayer.csproj.CoreCompileInputs.cache
+C:\Users\CAS\OneDrive\Masaüstü\Agriculture Presentation\BuisnessLayer\obj\Debug\net7.0\BuisnessLayer.csproj.CopyComplete
+C:\Users\CAS\OneDrive\Masaüstü\Agriculture Presentation\BuisnessLayer\obj\Debug\net7.0\BuisnessLayer.dll
+C:\Users\CAS\OneDrive\Masaüstü\Agriculture Presentation\BuisnessLayer\obj\Debug\net7.0\refint\BuisnessLayer.dll
+C:\Users\CAS\OneDrive\Masaüstü\Agriculture Presentation\BuisnessLayer\obj\Debug\net7.0\BuisnessLayer.pdb
+C:\Users\CAS\OneDrive\Masaüstü\Agriculture Presentation\BuisnessLayer\obj\Debug\net7.0\ref\BuisnessLayer.dll

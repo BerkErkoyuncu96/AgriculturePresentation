@@ -1,0 +1,52 @@
+﻿ @model EntityLayer.Concrete.Team
+@{
+    ViewData["Title"] = "addTeam";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+
+<div class="col-12 grid-margin stretch-card">
+    <div class="card">
+        <div class="card-body">
+            <h4 class="card-title">Yeni Çalışan Ekleyin</h4>
+            <p class="card-description">
+                Projenizi Yeni Personellerle Tanıştırın
+            </p>
+            <form class="forms-sample" method="post">
+                <div class="form-group">
+                    <label for="exampleInputName1">Ad Soyad</label>
+                    <span asp-validation-for="PersonName" class="text-danger"></span>
+                    <input type="text" class="form-control" id="exampleInputName1" placeholder="Ad Soyad" asp-for="PersonName">
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputTitle">Görev</label>
+                    <span asp-validation-for="Title" class="text-danger"></span>
+                    <input type="text" class="form-control" id="exampleInputTitle" placeholder="Görev" asp-for="Title">
+                </div>
+                    <div class="form-group">
+                    <label for="exampleInputImageURL">Görsel</label>
+                    <span asp-validation-for="ImageUrl" class="text-danger"></span>
+                    <input type="text" class="form-control" id="exampleInputImageURL" placeholder="Görsel Yolu" asp-for="ImageUrl">
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputFacebook">Facebook</label>
+                    <input type="text" class="form-control" id="exampleInputFacebook" placeholder="Facebook Adresi" asp-for="FacebookUrl">
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputInstagram">Instagram</label>
+                    <input type="text" class="form-control" id="exampleInputInstagram" placeholder="Instagram Adresi" asp-for="InstagramUrl">
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputWebside">Webside</label>
+                    <input type="text" class="form-control" id="exampleInputWebside" placeholder="Web Siteniz (varsa)" asp-for="WebSideUrl">
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputTwitter">Twitter</label>
+                    <input type="text" class="form-control" id="exampleInputTwitter" placeholder="Twitter Adresi" asp-for="TwitterUrl">
+                </div>
+
+                <button type="submit" class="btn btn-outline-primary">Kaydet</button>
+            </form>
+        </div>
+    </div>
+</div>

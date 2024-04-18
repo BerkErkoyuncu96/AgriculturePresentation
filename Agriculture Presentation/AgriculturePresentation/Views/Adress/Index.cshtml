@@ -1,0 +1,42 @@
+﻿@using EntityLayer.Concrete
+@model List<Adress>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div class="col-lg-12 grid-margin stretch-card">
+    <div class="card">
+        <div class="card-body">
+            <h4 class="card-title">Takım Üyeleri</h4>
+            <div class="table-responsive">
+                    <table class="table table-striped">
+                        <thead>
+                            <tr>
+                                <td>Açıklama 1</td>
+                                <td>Açıklama 2</td>
+                                <td>Açıklama 3</td>
+                                <td>Açıklama 4</td>
+                                <td>Düzenle</td>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var item in Model)
+                            {
+                                <tr>
+                                    <td class="py-1">
+                                        <img src="~/MajesticAdmin-Free-Bootstrap-Admin-Template-master/template/images/faces/face1.jpg" alt="image" />
+                                    </td>
+                                    <td>@item.Description1</td>
+                                    <td>@item.Description2</td>
+                                    <td>@item.Description3</td>
+                                    <td>@item.Description4</td>
+                                    <td><a href="/Adress/updateAdress/@item.AdressID" class="btn btn-inverse-primary">Güncelle</a></td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+            </div>
+        </div>
+    </div>
+</div>
